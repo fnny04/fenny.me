@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fenny Oktaviani</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section class="flex md:flex-col flex-row">
+      <header
+        class="transition sticky z-10 top-0 ease-in-out delay-150 flex md:w-full bg-blue-400 md:p-4 md:h-auto h-screen items-center py-6 md:justify-between w-[78px] flex-col md:flex-row justify-start gap-y-8 md:gap-y-0"
+      >
+        <figure class="flex items-center gap-x-4">
+          <figcaption
+            class="text-white font-bold md:text-base text-2xl font-sans"
+          >
+            Punny
+          </figcaption>
+        </figure>
+        <nav
+          class="hidden md:flex gap-x-4 w-auto text-white font-medium text-base cursor-pointer"
+        >
+          <a href="#profile">Portfolio</a>
+          <a href="#gallery">About Me</a>
+          <span>Contact</span>
+        </nav>
+        <nav class="flex gap-y-2 flex-col md:hidden cursor-pointer">
+          <a
+            href="#profile"
+            class="p-1 transition-all ease-in-out delay-100 initial-scale hover:scale-125"
+          >
+            <svg fill="white" viewBox="0 0 72 72" width="64px" height="64px">
+              <path
+                d="M 36 10 C 34.861 10 33.722922 10.386609 32.794922 11.162109 L 11.517578 28.941406 C 10.052578 30.165406 9.5519375 32.270219 10.460938 33.949219 C 11.711938 36.258219 14.661453 36.740437 16.564453 35.148438 L 35.359375 19.445312 C 35.730375 19.135313 36.269625 19.135313 36.640625 19.445312 L 55.435547 35.148438 C 56.183547 35.774437 57.093047 36.078125 57.998047 36.078125 C 59.171047 36.078125 60.333953 35.567219 61.126953 34.574219 C 62.503953 32.850219 62.112922 30.303672 60.419922 28.888672 L 58 26.867188 L 58 16.667969 C 58 15.194969 56.805984 14 55.333984 14 L 52.667969 14 C 51.194969 14 50 15.194969 50 16.667969 L 50 20.181641 L 39.205078 11.162109 C 38.277078 10.386609 37.139 10 36 10 z M 35.996094 22.925781 L 13.996094 41.302734 L 13.996094 50 C 13.996094 54.418 17.578094 58 21.996094 58 L 49.996094 58 C 54.414094 58 57.996094 54.418 57.996094 50 L 57.996094 41.302734 L 35.996094 22.925781 z M 32 38 L 40 38 C 41.105 38 42 38.895 42 40 L 42 50 L 30 50 L 30 40 C 30 38.895 30.895 38 32 38 z"
+              />
+            </svg>
+          </a>
+          <a
+            class="p-2 transition-all ease-in-out delay-100 initial-scale hover:scale-125"
+          >
+            <svg width="54px" fill="white" height="54px" viewBox="0 0 24 24">
+              <path
+                d="M 21 2H6a2 2 0 0 0-2 2v3H2v2h2v2H2v2h2v2H2v2h2v3a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1zm-8 2.999c1.648 0 3 1.351 3 3A3.012 3.012 0 0 1 13 11c-1.647 0-3-1.353-3-3.001 0-1.649 1.353-3 3-3zM19 18H7v-.75c0-2.219 2.705-4.5 6-4.5s6 2.281 6 4.5V18z"
+              />
+            </svg>
+          </a>
+          <a
+            href="#gallery"
+            class="p-1 transition-all ease-in-out delay-100 initial-scale hover:scale-125"
+          >
+            <svg
+              fill="white"
+              class="mt-2"
+              width="55px"
+              height="38px"
+              viewBox="0 0 10 10"
+            >
+              <path
+                d="M9.3005371,6.5351563C8.4776001,7.4294434,7.3084106,8,6,8S3.5223999,7.4294434,2.6994629,6.5351563   C1.3145142,7.2350464,0.5,8.6131592,0.5,10.5V12h11v-1.5C11.5,8.6131592,10.6854858,7.2350464,9.3005371,6.5351563z"
+                fill="fill"
+              />
+              <circle cx="6" cy="3.5" fill="white" r="3.5" />
+            </svg>
+          </a>
+        </nav>
+      </header>
+      <section class="flex flex-col h-full">
+        <main
+          id="profile"
+          class="flex md:gap-y-6 md:flex-col flex-row items-start justify-center md:items-center h-screen w-full p-8 md:p-16"
+        >
+          <div class="flex flex-col gap-y-6">
+            <div
+              class="flex items-start md:justify-center text-left flex-col gap-y-6 md:items-center gap-x-4"
+            >
+              <img
+                width="180px"
+                class="rounded-full border-4 border-blue-400"
+                src="./assets/img/gal.jpg"
+                alt=""
+              />
+              <section
+                class="flex text-left md:text-center flex-col gap-y-4 item-center h-auto"
+              >
+                <h1
+                  class="sm:text-3xl xs:text-1xl text-xl md:text-5xl text-blue-400 font-sans font-bold"
+                >
+                  Hello Fellas, Fenny Oktaviani
+                </h1>
+                <h1
+                  class="md:text-2xl hidden md:inline sm:text-1xl text-xl text-blue-400 font-sans font-medium"
+                >
+                  Iam a 21 year student at Universitas Isalm Nusantara and i
+                  have a Software Engineer BoyFriend
+                </h1>
+              </section>
+            </div>
+            <h1
+              class="md:text-2xl md:hidden inline sm:text-1xl text-xl text-blue-400 font-sans font-medium"
+            >
+              Iam a 21 year student at Universitas Isalm Nusantara and i have a
+              Software Engineer BoyFriend
+            </h1>
+          </div>
+        </main>
+        <main
+          id="gallery"
+          class="flex md:gap-y-6 md:flex-col justify-center flex-row items-start md:items-center h-screen w-full p-8 md:p-16"
+        >
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <img class="rounded-lg" src="./assets/img/gal.jpg" alt="gal" />
+            <img class="rounded-lg" src="./assets/img/gal.jpg" alt="gal" />
+            <img class="rounded-lg" src="./assets/img/gal.jpg" alt="gal" />
+            <img class="rounded-lg" src="./assets/img/gal.jpg" alt="gal" />
+            <img class="rounded-lg" src="./assets/img/profil.jpg" alt="gal" />
+            <img class="rounded-lg" src="./assets/img/profil.jpg" alt="gal" />
+            <img class="rounded-lg" src="./assets/img/profil.jpg" alt="gal" />
+            <img class="rounded-lg" src="./assets/img/profil.jpg" alt="gal" />
+          </div>
+        </main>
+      </section>
+    </section>
+  </body>
+</html>
